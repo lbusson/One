@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+
+<form role="form" action="Untitled-2.php" method="post">
+  
+  <input type="text" class="form-control namebot" id="name" placeholder="Name" name="name" onblur = "validateNotEmpty( this.value, 'nameError' )">
+  <input type="text" class="form-control emailbot " id="email" placeholder="Email" name="email" onblur = "validateEmailFormat(this.value)">  
+  <textarea name="message" id="message" class="form-control" rows="3" placeholder="Message" name="message" onblur = "validateMessage( this.value, 'messageError' )">
+  </textarea>
+   
+  <button type="submit" class="btn btn-transparent" id="submitbutton" >Submit</button>
+  
+</form>
+
+
+</body>
+</html>
